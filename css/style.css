@@ -1,8 +1,8 @@
 /* General Styles*/
 body {
-  /* position: relative;
-    width: 1440px;
-    height: 4521px; */
+  position: relative;
+  width: 1440px;
+  height: 4521px;
   background: #ffffff;
   font-family: "Open Sans";
   font-style: normal;
@@ -30,32 +30,13 @@ a {
 /*Navigation*/
 
 .navigation {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  align-items: center; */
-  /* padding: 0px 120px; */
-  /* isolation: isolate; */
-  /* position: absolute; */
-  /* width: 1440px; */
-  /* height: 80px; */
-  /* margin-left: 0px;
-  margin-top: 0px; */
   text-align: center;
   padding-top: 27px;
   padding-bottom: 27px;
   border-bottom: 1px solid #828282;
 }
 .navigation ul {
-  /* display: flex;
-  flex-direction: row;
-  align-items: center; */
   padding: 0px;
-  /* gap: 40px; */
-  /* width: 496px; */
-  /* height: 30px; */
-  /* margin-top: 25px; */
-  /* margin-left: 472px; */
 }
 .navigation ul li {
   margin-left: 20px;
@@ -128,17 +109,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 480px;
   gap: 50px;
   isolation: isolate;
   position: absolute;
   width: 970px;
   height: 500px;
   margin-left: 235px;
-  margin-top: 589px;
+  margin-right: 235px;
+  margin-top: 645px;
   background: #f6f6f6;
 }
 .main-about-me h2 {
+  padding-top: 80px;
   width: 200px;
   height: 40px;
   font-family: "Open Sans";
@@ -192,12 +174,13 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 22px;
+  padding: 0px;
   gap: 50px;
   position: absolute;
   width: 970px;
   height: 564px;
   margin-left: 235px;
+  margin-right: 235px;
   margin-top: 1089px;
   background-color: #ffffff;
 }
@@ -228,13 +211,17 @@ a {
   text-align: center;
   color: #070707;
 }
+.skills_img {
+  width: 80px;
+  height: 80px;
+}
 .product-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 187px;
+  gap: 150px;
   width: 970px;
   height: 230px;
 }
@@ -273,8 +260,8 @@ a {
   color: #828282;
 }
 .figma {
-  width: 44px;
-  height: 19px;
+  width: 78px;
+  height: 38px;
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
@@ -288,12 +275,12 @@ a {
   align-items: flex-start;
   padding: 0px;
   gap: 10px;
-  width: 170px;
+  width: 100px;
   height: 26px;
 }
 .list-item-stars {
-  width: 26px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
 }
 
 .main-portfolio {
@@ -301,19 +288,20 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 59px 235px;
   gap: 50px;
   isolation: isolate;
   position: absolute;
   width: 970px;
-  height: 2268px;
-  left: 235px;
-  top: 1653px;
+  height: 2150px;
+  margin-left: 235px;
+  margin-right: 235px;
+  margin-top: 1653px;
   background-color: #f6f6f6;
 }
 .main-portfolio h2 {
   width: 150px;
   height: 40px;
+
   font-weight: 700;
   font-size: 34px;
   line-height: 46px;
@@ -327,7 +315,7 @@ a {
   padding: 0px;
   gap: 40px;
   width: 970px;
-  height: 604px;
+  height: 630px;
 }
 .main-portfolio img {
   width: 970px;
@@ -366,7 +354,8 @@ a {
   width: 970px;
   height: 400px;
   margin-left: 235px;
-  margin-top: 4021px;
+  margin-right: 235px;
+  margin-top: 3900px;
 }
 .footer-heading {
   display: flex;
@@ -387,7 +376,7 @@ a {
   color: #070707;
 }
 .footer-heading p {
-  width: 280px;
+  width: 260px;
   height: 46px;
   font-weight: 400;
   font-size: 18px;
@@ -419,7 +408,7 @@ a {
   width: 148px;
   height: 24px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.1em;
