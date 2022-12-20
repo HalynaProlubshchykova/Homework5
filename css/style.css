@@ -393,7 +393,7 @@ a {
   width: 310px;
   height: 114px;
 }
-.contacts button {
+.button {
   display: flex;
   flex-direction: row;
   justify-content: center;
